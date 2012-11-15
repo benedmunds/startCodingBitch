@@ -1,16 +1,16 @@
 @media screen and (max-width:640px) {  
 	body { background: url('img/background_640.jpg') no-repeat center center fixed; }
-	#text { font-size:2em; }
+	#text { font-size:3em; }
 }
 
 @media screen and (min-width:641px) and (max-width:768px) {  
 	body { background: url('img/background_768.jpg') no-repeat center center fixed; }
-	#text { font-size:2.5em; }
+	#text { font-size:3em; }
 }
 
 @media screen and (min-width:769px) and (max-width:1024px) {  
 	body { background: url('img/background_1024.jpg') no-repeat center center fixed; }
-	#text { font-size:3em; }
+	#text { font-size:3.5em; }
 }
 
 @media screen and (min-width:1025px) and (max-width:1280px) {  
