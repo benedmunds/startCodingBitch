@@ -31,11 +31,13 @@ body {
 }
 
 #text {
+	position:absolute;
+	top:0px;
+	left:10px;
 	color:#000;
 	font-weight:bold;
 	font-family:arial;
 	text-shadow: -1px 0 #666, 0 2px #666, 2px 0 #666, 0 -1px #666;
-	margin: 0px 10px;
 }
 
 #footer {
