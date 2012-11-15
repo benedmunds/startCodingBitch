@@ -11,9 +11,11 @@ $(document).ready(function(){
 			break;
 		case 3:
 			$('body').css('background-image', "url('img/background3.jpg')");
-			$('#text').css('left', '10px');
+			$('#text').css('left', 'auto');
+			$('#text').css('right', '20px');
 			$('#text').css('top', '0px');
-			$('#text').css('width', '3em');
+			$('#text').css('width', '5em');
+			$('#text').css('text-align', 'right');
 			break;
 		case 4:
 			$('body').css('background-image', "url('img/background4.jpg')");
