@@ -34,8 +34,9 @@ $(document).ready(function(){
 			break;
 		case 5:
 			$('body').css('background-image', "url('img/background5.jpg')");
-			$('#text').css('left', 'auto');
-			$('#text').css('right', '420px');
+			$('#text').css('left', '320px');
+			$('#text').css('right', 'auto');
+			$('#text').css('margin-right', '20px');
 			$('#text').css('top', '15px');
 			$('#text').css('font-size', '4.4em');
 			$('#text').css('text-align', 'right');
