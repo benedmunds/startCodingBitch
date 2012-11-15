@@ -20,7 +20,7 @@
 
 @media screen and (min-width:1281px) {  
 	body { background: url('img/background.jpg') no-repeat center center fixed; }
-	#text { font-size:4em; }
+	#text { font-size:6em; }
 }
 
 body {
