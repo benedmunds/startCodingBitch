@@ -2,6 +2,14 @@ $(document).ready(function(){
 
 	var random = Math.floor(Math.random()*6);
 
+	//phone
+	if ($(window).width() < 768) {
+		if (random == 4)
+			random--;
+		else if (random == 5)
+			random++;
+	}
+
 	switch (random) {
 		case 2:
 			$('body').css('background-image', "url('img/background2.jpg')");
